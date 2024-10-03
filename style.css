@@ -242,28 +242,30 @@ nav {
 }
 
 /* -------- footer section----------- */
-footer{
-    background-color: #E8F9E9;
-    padding: 12px 24px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+footer {
+  background-color: #e8f9e9;
+  padding: 12px 24px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.footer-info span , footer span{
-    font-size: 28px;
-    font-weight: bolder;
-    padding: 6px 0;
-    flex-grow: 1;
+.footer-info span,
+footer span {
+  font-size: 28px;
+  font-weight: bolder;
+  padding: 6px 0;
+  flex-grow: 1;
 }
-.footer-info  ul li,footer p{
-    list-style: none;
-    font-size: 19px;
-    padding: 6px 0;
+.footer-info ul li,
+footer p {
+  list-style: none;
+  font-size: 19px;
+  padding: 6px 0;
 }
-.footer-img img{
-    padding: 12px;
+.footer-img img {
+  padding: 12px;
 }
 @media screen and (max-width: 900px) {
   .logo span {
@@ -276,7 +278,7 @@ footer{
   .banner-text h1 {
     font-size: 45px;
   }
-  .card{
+  .card {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -296,8 +298,8 @@ footer{
   .banner-text h1 {
     font-size: 25px;
   }
-  
-  .card{
+
+  .card {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -305,6 +307,10 @@ footer{
   nav {
     flex-direction: column;
     gap: 6px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
   }
   .banner-text h1 {
     font-size: 15px;
