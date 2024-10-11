@@ -21,10 +21,30 @@ nav {
 .logo img {
   width: 35px;
 }
-.logo span {
+.logo span,
+.product-nav,
+.sign-up-nav {
   font-size: 25px;
   color: #29a060;
   font-weight: 900;
+}
+
+.sub-nav {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.product-nav a,
+.sign-up-nav a {
+  margin-top: 6px;
+  text-decoration: none;
+  border-bottom: 5px solid #daf6d7;
+  border-radius: 9px;
+  color: #29a060;
+  box-shadow: 2px 2px 4px #299e60;
 }
 .search-location {
   display: flex;
